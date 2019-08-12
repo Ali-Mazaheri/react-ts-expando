@@ -1,0 +1,25 @@
+*{
+ box-sizing: border-box;
+}
+
+.unselectable{
+  user-select: none;
+}
+
+.dyaCell{
+}
+
+.dyaCell .title{
+  border:solid 1px lightgray;
+  cursor: pointer;
+  display: flex;
+  font-size: 15px;
+  font-weight: bolder;
+  justify-content: space-between;
+}
+
+.dyaCell .content{
+  border:solid lightgray 1px;
+  background-color: whitesmoke;
+  margin: 1px 3px 0 3px;
+}
